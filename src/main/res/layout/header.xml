@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="wrap_content"
     android:padding="4dp"
-    android:background="#d8d8d8"
+    android:background="#FFF"
     >
 
     <TextView
@@ -10,8 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Group title"
-        android:textColor="@color/lightGray"
+        android:textColor="#E2231A"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textSize="17sp"
         android:layout_marginLeft="10dp"
         android:layout_centerVertical="true"/>
 </RelativeLayout>

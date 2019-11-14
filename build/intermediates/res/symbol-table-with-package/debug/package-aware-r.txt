@@ -1067,13 +1067,13 @@ id actions
 id activity_chooser_view_content
 id add
 id ag_commonitem
+id ag_subitem
 id alertTitle
 id async
 id auto
 id autogroup_ib_search
 id autogroup_rv
 id bar
-id barrier
 id blocking
 id bottom
 id bottomLine
@@ -1084,7 +1084,6 @@ id buttonVoice
 id cancel_action
 id card
 id center
-id chains
 id checkbox
 id chronometer
 id container
@@ -1100,8 +1099,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id dimensions
-id direct
 id edit_query
 id end
 id end_padder
@@ -1190,7 +1187,6 @@ id spread_inside
 id src_atop
 id src_in
 id src_over
-id standard
 id start
 id status_bar_latest_event_content
 id stretch

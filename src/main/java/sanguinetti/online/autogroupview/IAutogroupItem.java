@@ -3,6 +3,7 @@ package sanguinetti.online.autogroupview;
 public interface IAutogroupItem {
     public String getDisplayName();
     public String getId();
+    public String getSubtitle();
     public String getSimpleDisplayName();
     public String getGroupBy1();
     public String getGroupBy2();

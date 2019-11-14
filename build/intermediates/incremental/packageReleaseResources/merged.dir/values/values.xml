@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorAccent">#ff8000</color>
-    <color name="colorPrimary">#0272BB</color>
-    <color name="lightGray">#dadada</color>
-    <color name="textgray">#757575</color>
-    <string name="app_name">AutogroupView</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-</resources>

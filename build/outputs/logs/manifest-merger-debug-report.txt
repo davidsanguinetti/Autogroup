@@ -1,37 +1,37 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:1-2:42
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:1-2:42
+ADDED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:1-2:42
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:1-2:42
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:1-2:42
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:1-2:42
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:1-2:42
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:1-2:42
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:1-2:42
 	package
-		ADDED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:2:5-39
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
+		ADDED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-		ADDED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:1-2:42
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+		ADDED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:1-2:42
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-		ADDED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:1-2:42
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+		ADDED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:1-2:42
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-		ADDED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+		ADDED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-		ADDED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
-		INJECTED from /mnt/sda1/projects/AndroidRepo/vetPawerPro/autogroupview/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+		ADDED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/src/main/AndroidManifest.xml

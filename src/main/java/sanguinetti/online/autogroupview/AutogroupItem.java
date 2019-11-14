@@ -4,7 +4,7 @@ public class AutogroupItem {
     public static final int HEADER = 0;
     public static final int REGULARITEM = 1;
 
-    private String text;
+    private String text, subtext;
     private IAutogroupItem shownItem;
     private int type;
 
@@ -24,6 +24,14 @@ public class AutogroupItem {
 
     public void setText(String text) {
         this.text = text;
+    }
+
+    public String getSubtext() {
+        return (type == HEADER) ? "" : shownItem.getSubtitle();
+    }
+
+    public void setSubtext(String subtext) {
+        this.subtext = subtext;
     }
 
     public IAutogroupItem getShownItem() {

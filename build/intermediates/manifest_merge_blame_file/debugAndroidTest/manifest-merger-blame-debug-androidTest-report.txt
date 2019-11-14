@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.online.autogroupview.test" >
+4
+5    <uses-sdk
+5-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:5:5-74
+6        android:minSdkVersion="22"
+6-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:11:5-15:79
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:11:22-76
+11        android:functionalTest="false"
+11-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:13:22-53
+13        android:label="Tests for com.online.autogroupview.test"
+13-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:15:22-77
+14        android:targetPackage="com.online.autogroupview.test" />
+14-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:12:22-75
+15
+16    <application
+16-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:7:5-9:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] /Users/davidsanguinetti/.gradle/caches/transforms-2/files-2.1/8c9346d5dcaa46f2cdf625f7113fe289/core-1.0.0/AndroidManifest.xml:22:18-86
+18        android:debuggable="true" >
+18-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:8:9-60
+19-->/Users/davidsanguinetti/AndroidStudioProjects/myticket_app_android/Autogroup/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5962646295282963616.xml:8:23-57
+20    </application>
+21
+22</manifest>

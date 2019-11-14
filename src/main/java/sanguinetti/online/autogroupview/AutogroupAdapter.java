@@ -21,6 +21,7 @@ public class AutogroupAdapter extends RecyclerView.Adapter<AutogroupAdapter.VHAu
     IAutogroupItem[] items;
     ArrayList<AutogroupItem> arItems;
     IAutogroupListener listener;
+    HashMap<String, ArrayList<IAutogroupItem>> hmitems;
 
 
     public AutogroupAdapter(IAutogroupItem[] items, IAutogroupListener list) {
@@ -34,7 +35,7 @@ public class AutogroupAdapter extends RecyclerView.Adapter<AutogroupAdapter.VHAu
     }
 
     private void organizeItems(IAutogroupItem[] showItems) {
-        HashMap<String, ArrayList<IAutogroupItem>> hmitems = new HashMap<>();
+        hmitems = new HashMap<>();
         arItems.clear();
 
         for (IAutogroupItem i : showItems) {
@@ -101,6 +102,8 @@ public class AutogroupAdapter extends RecyclerView.Adapter<AutogroupAdapter.VHAu
     @Override
     public void onBindViewHolder(@NonNull VHAutogroup holder, int position) {
         holder.getTvName().setText(arItems.get(position).getText());
+        if (holder.getTvSubtitle() != null)
+            holder.getTvSubtitle().setText(arItems.get(position).getSubtext());
         holder.setItem(arItems.get(position).getShownItem());
         holder.setListener(listener);
     }
@@ -118,20 +121,22 @@ public class AutogroupAdapter extends RecyclerView.Adapter<AutogroupAdapter.VHAu
 
     public static class VHAutogroup extends RecyclerView.ViewHolder {
 
-        TextView tvName;
+        TextView tvName,
+                tvSubtitle;
         IAutogroupItem item;
         IAutogroupListener listener;
 
         public VHAutogroup(@NonNull View itemView) {
             super(itemView);
 
-            tvName = itemView.findViewById(R.id.ag_commonitem);
+            tvName      = itemView.findViewById(R.id.ag_commonitem);
+            tvSubtitle  = itemView.findViewById(R.id.ag_subitem);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     if (item != null)
-                    listener.selectedItem(item);
+                        listener.selectedItem(item);
                 }
             });
         }
@@ -152,6 +157,10 @@ public class AutogroupAdapter extends RecyclerView.Adapter<AutogroupAdapter.VHAu
             return listener;
         }
 
+        public TextView getTvSubtitle() {
+            return tvSubtitle;
+        }
+
         public void setListener(IAutogroupListener listener) {
             this.listener = listener;
         }
@@ -169,5 +178,9 @@ public class AutogroupAdapter extends RecyclerView.Adapter<AutogroupAdapter.VHAu
         IAutogroupItem[] ari = new IAutogroupItem[arshow.size()];
         arshow.toArray(ari);
         organizeItems(ari);
+    }
+
+    public HashMap<String, ArrayList<IAutogroupItem>> getHmitems() {
+        return hmitems;
     }
 }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#FFF"
@@ -10,7 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Item"
-        android:textColor="@color/default_textColor"
-
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#3B3B3B"
         android:layout_centerVertical="true"/>
-</RelativeLayout>
+
+    <TextView
+        android:id="@+id/ag_subitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ag_commonitem"
+        android:text="coisas porreiras e tal"
+        android:textSize="14sp"
+        android:textColor="#9FA0A5"
+        android:layout_centerVertical="true"/>
+
+</LinearLayout>
