@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color lightGray
+color textgray
+id ag_commonitem
+id ag_subitem
+id autogroup_ib_search
+id autogroup_rv
+id searchView
+id toolbar
+id toolbar_container
+id toolbar_rl_container
+id tv_filteringby
+layout common_item
+layout fragment_autogroup
+layout header
+string app_name
+string hello_blank_fragment
